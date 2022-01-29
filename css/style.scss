@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: #141625;
+}
+
+.invoice-modal {
+  position: fixed;
+  height: 100%;
+  width: 6.5rem;
+  background: #1f213a;
+}
+
+.application {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 23rem 20rem;
+  grid-template-rows: 7rem auto;
+  justify-content: center;
+}
+
+.invoices-container {
+  grid-column-start: span 2;
+  display: flex;
+  flex-direction: column;
+}
+
+.invoice {
+  height: 6rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  background: rgb(205, 33, 33);
+}
