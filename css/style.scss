@@ -4,6 +4,7 @@
   box-sizing: border-box;
   color: white;
   font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
 }
 
 body {
@@ -15,9 +16,27 @@ body {
 
 .invoice-modal {
   position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   height: 100%;
   width: 6.5rem;
   background: #1f213a;
+
+  & .modal-items-wrapper {
+    flex-grow: 1;
+    width: 100%;
+    
+    & .logo-wrapper {
+      height: 6rem;
+    }
+  }
+}
+
+.logo-wrapper, .night-mode-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .application {
@@ -27,6 +46,18 @@ body {
   grid-template-columns: 23rem 20rem;
   grid-template-rows: 7rem auto;
   justify-content: center;
+}
+
+.invoice-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.invoice-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .invoices-container {

@@ -9,12 +9,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <header class="invoice-modal">
-      <div class="logo-container">
-        <img src="./icons/logo.svg">
+      <div class="modal-items-wrapper">
+        <div class="logo-wrapper">
+          <img src="./icons/logo.svg">
+        </div>
         <a href="http://" class="night-mode-toggle">
           <img src="./icons/icon-sun.svg">
         </a>
@@ -30,7 +32,7 @@
       </div>
       <div class="invoice-buttons">
         <a href="">Filter by status V</a>
-        <button type="submit">New Invoice</button>
+        <button type="submit" id="create-invoice">New Invoice</button>
       </div>
       <div class="invoices-container">
         <div class="invoice">
