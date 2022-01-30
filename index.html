@@ -6,18 +6,21 @@
     <title></title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header class="invoice-modal">
       <div class="logo-container">
-        <img src="/icons/logo.svg">
+        <img src="./icons/logo.svg">
         <a href="http://" class="night-mode-toggle">
-          <img src="/icons/icon-sun.svg">
+          <img src="./icons/icon-sun.svg">
         </a>
       </div>
       <div class="profile-container">
-        <img src="/icons/image-avatar.jpg">
+        <img src="./icons/image-avatar.jpg">
       </div>
     </header>
     <main class="application">
@@ -31,7 +34,12 @@
       </div>
       <div class="invoices-container">
         <div class="invoice">
-
+          <p id="invoice-number">#RT3080</p>
+          <p id="invoice-due-date">Due 19 Aug 2021</p>
+          <p id="invoice-payee">Peter Parker</p>
+          <p id="invoice-amount">$1300.52</p>
+          <p id="invoice-status">Paid</p>
+          <a href="" id="invoice-expand">Button</a>
         </div>
         <div class="invoice">
           
@@ -41,6 +49,6 @@
         </div>
       </div>
     </main>
-    <script src="/script/script.js" async defer></script>
+    <script src="./script/script.js" async defer></script>
   </body>
 </html>
