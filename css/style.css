@@ -72,6 +72,15 @@ body {
       grid-template-rows: 4rem;
 }
 
+label {
+  display: block;
+}
+
+input {
+  border: none;
+  background-color: #1f213a;
+}
+
 .street-wrapper {
   -ms-grid-column: span 3;
       grid-column-start: span 3;
