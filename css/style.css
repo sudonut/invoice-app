@@ -63,7 +63,7 @@ body {
   background: #141625;
 }
 
-.bill-form-container {
+.bill-from-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 0.7fr 0.8fr 0.8fr;
